@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumio — 당신의 하루에 맞춰 빛이 흐르는 스마트 데스크 램프. 서카디안 리듬에 맞춰 자연스럽게 변하는 조명." />
+  <meta name="theme-color" content="#1A1A1A" />
+  <title>Lumio — 빛, 다시 디자인하다</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700&family=Pretendard:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23E8A547'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#home" class="nav__logo" aria-label="Lumio 홈">
+        <span class="nav__logo-mark"></span>
+        <span class="nav__logo-text">Lumio</span>
+      </a>
+
+      <nav class="nav__menu" id="navMenu">
+        <a href="#home" class="nav__link">홈페이지</a>
+        <a href="#product" class="nav__link">제품</a>
+        <a href="#story" class="nav__link">스토리</a>
+        <a href="#contact" class="nav__link">문의</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="en/index.html" class="nav__lang" aria-label="Switch to English">EN</a>
+        <a href="#contact" class="nav__cta">사전예약</a>
+        <button class="nav__toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy reveal">
+          <p class="eyebrow">SMART DESK LAMP · 2026</p>
+          <h1 class="hero__title">
+            빛,<br/>다시 <em>디자인</em>하다.
+          </h1>
+          <p class="hero__lead">
+            Lumio는 당신의 하루에 맞춰 색과 밝기를 조율하는 스마트 데스크 램프입니다.
+            아침의 깨어남부터 깊은 밤의 휴식까지, 빛이 자연스럽게 흐릅니다.
+          </p>
+          <div class="hero__actions">
+            <a href="#product" class="btn btn--primary">제품 살펴보기</a>
+            <a href="#story" class="btn btn--ghost">브랜드 스토리 →</a>
+          </div>
+          <ul class="hero__meta">
+            <li><strong>2700K–6500K</strong><span>색온도</span></li>
+            <li><strong>10단계</strong><span>밝기 조절</span></li>
+            <li><strong>30,000h</strong><span>LED 수명</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__product">
+            <img src="assets/hero-lamp.png" alt="Lumio 스마트 데스크 램프" id="heroImg" />
+            <div class="hero__glow" aria-hidden="true"></div>
+          </div>
+          <div class="hero__chip">
+            <span class="hero__chip-dot"></span>
+            현재 모드 · <strong>Focus Warm 3000K</strong>
+          </div>
+        </div>
+      </div>
+
+      <a href="#product" class="hero__scroll" aria-label="아래로 스크롤">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>WIRED</span><span>·</span>
+        <span>MONOCLE</span><span>·</span>
+        <span>DESIGN MILK</span><span>·</span>
+        <span>DEZEEN</span><span>·</span>
+        <span>FAST COMPANY</span><span>·</span>
+        <span>WIRED</span><span>·</span>
+        <span>MONOCLE</span><span>·</span>
+        <span>DESIGN MILK</span><span>·</span>
+        <span>DEZEEN</span><span>·</span>
+        <span>FAST COMPANY</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <section class="features section" id="product">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">FEATURES</p>
+          <h2 class="section__title">하루를 비추는<br/>섬세한 기술</h2>
+          <p class="section__sub">
+            과학과 디자인이 만나, 당신의 시선이 머무는 순간을 더 편안하게 만듭니다.
+          </p>
+        </header>
+
+        <div class="features__grid">
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+              </svg>
+            </div>
+            <h3>서카디안 리듬</h3>
+            <p>아침엔 활기찬 화이트, 저녁엔 따뜻한 앰버. 시간의 흐름에 맞춰 색온도가 자동으로 변합니다.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M12 3l3 6 6 1-4.5 4 1 6L12 17l-5.5 3 1-6L3 10l6-1z"/>
+              </svg>
+            </div>
+            <h3>아이케어 기술</h3>
+            <p>플리커 프리, 글레어 프리. 장시간 작업에도 눈의 피로를 최소화한 의료급 LED를 적용했습니다.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <rect x="6" y="2" width="12" height="20" rx="2"/>
+                <line x1="12" y1="18" x2="12" y2="18.01"/>
+              </svg>
+            </div>
+            <h3>앱 컨트롤</h3>
+            <p>스마트폰 하나로 모드 전환, 타이머, 일정 동기화. 음성 비서와도 자연스럽게 연결됩니다.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M4 7l8-4 8 4M4 7v10l8 4 8-4V7M4 7l8 4 8-4M12 11v10"/>
+              </svg>
+            </div>
+            <h3>프리미엄 소재</h3>
+            <p>알루미늄 단조 바디와 재활용 알루미늄 베이스. 손에 닿는 모든 면이 견고하고 우아합니다.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M12 2a7 7 0 0 0-4 12.74V17a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2.26A7 7 0 0 0 12 2z"/>
+                <line x1="9" y1="22" x2="15" y2="22"/>
+              </svg>
+            </div>
+            <h3>스마트 센서</h3>
+            <p>주변 조도와 사람의 움직임을 감지하여, 필요한 만큼만 정확하게 빛을 비춥니다.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M21 12a9 9 0 1 1-9-9c2.5 0 4.78.95 6.5 2.5"/>
+                <polyline points="21 4 21 9 16 9"/>
+              </svg>
+            </div>
+            <h3>에너지 효율</h3>
+            <p>일반 형광등 대비 80% 에너지 절감. 한 달 내내 켜두어도 부담 없는 친환경 설계.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="container showcase__grid">
+        <div class="showcase__media reveal">
+          <img src="assets/lifestyle-warm.png" alt="따뜻한 빛이 비추는 책상 위의 Lumio" />
+        </div>
+        <div class="showcase__copy reveal">
+          <p class="eyebrow">DESIGN</p>
+          <h2 class="section__title">미니멀,<br/>그 이상의 균형</h2>
+          <p>
+            한 손으로 자연스럽게 각도를 조절할 수 있도록 설계된 마그네틱 힌지.
+            얇은 라인 안에 정교한 기술이 숨어 있습니다. 책상 위 어디에 두어도 자연스럽게 어우러지는 형태로 완성했습니다.
+          </p>
+          <ul class="check-list">
+            <li>360° 회전 마그네틱 힌지</li>
+            <li>터치 슬라이드 디머</li>
+            <li>USB-C 충전 포트 내장</li>
+            <li>4가지 색상 (미드나잇, 샌드, 세이지, 아이보리)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="story section" id="story">
+      <div class="container story__grid">
+        <div class="story__copy reveal">
+          <p class="eyebrow">OUR STORY</p>
+          <h2 class="section__title">빛은 공간이 아닌,<br/>시간을 디자인합니다</h2>
+          <p>
+            Lumio는 “빛은 도구가 아니라 분위기”라는 믿음에서 시작되었습니다.
+            우리는 매일 같은 책상에 앉지만, 그 시간들은 결코 같지 않습니다.
+            아침의 집중, 오후의 회의, 밤의 사색 — 각각의 시간엔 그에 맞는 빛이 필요합니다.
+          </p>
+          <p>
+            엔지니어와 디자이너가 모여 3년간 연구한 끝에,
+            우리는 사람의 감정에 가장 가까이 다가가는 조명을 완성했습니다.
+          </p>
+          <a href="#contact" class="btn btn--ghost">브랜드 더 알아보기 →</a>
+        </div>
+        <div class="story__media reveal">
+          <img src="assets/lifestyle-cool.png" alt="저녁의 Lumio 라이프스타일" />
+          <div class="story__badge">EST. 2026 · SEOUL</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specs -->
+    <section class="specs section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">TECH SPECS</p>
+          <h2 class="section__title">정직한 사양</h2>
+        </header>
+        <div class="specs__grid">
+          <div class="spec reveal"><span>색온도</span><strong>2700K – 6500K</strong></div>
+          <div class="spec reveal"><span>밝기</span><strong>최대 1,200 lux</strong></div>
+          <div class="spec reveal"><span>연색지수</span><strong>CRI 95+</strong></div>
+          <div class="spec reveal"><span>소비 전력</span><strong>9W (USB-C PD)</strong></div>
+          <div class="spec reveal"><span>크기</span><strong>410 × 180 × 60 mm</strong></div>
+          <div class="spec reveal"><span>무게</span><strong>1.2 kg</strong></div>
+          <div class="spec reveal"><span>연결</span><strong>Wi-Fi · Bluetooth 5.3</strong></div>
+          <div class="spec reveal"><span>호환</span><strong>iOS · Android · Matter</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section class="cta section" id="contact">
+      <div class="container cta__inner reveal">
+        <p class="eyebrow">PRE-ORDER</p>
+        <h2 class="section__title">먼저 만나보세요</h2>
+        <p class="cta__sub">사전 예약 시 정가 대비 20% 할인 및 한정 컬러를 가장 먼저 만나보실 수 있습니다.</p>
+        <form class="cta__form" id="ctaForm" novalidate>
+          <label class="sr-only" for="email">이메일 주소</label>
+          <input id="email" name="email" type="email" placeholder="이메일 주소를 입력하세요" required />
+          <button type="submit" class="btn btn--primary">사전예약 신청</button>
+        </form>
+        <p class="cta__note">*개인정보는 사전 안내 목적 외에 사용되지 않습니다.</p>
+        <p class="cta__success" id="ctaSuccess" hidden>감사합니다. 출시 소식이 가장 먼저 전달됩니다.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <span class="nav__logo-mark"></span>
+        <span class="nav__logo-text">Lumio</span>
+        <p>Light, reimagined for the way you live.</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <h4>제품</h4>
+          <a href="#product">기능</a>
+          <a href="#product">디자인</a>
+          <a href="#product">사양</a>
+        </div>
+        <div>
+          <h4>브랜드</h4>
+          <a href="#story">스토리</a>
+          <a href="#contact">사전예약</a>
+          <a href="en/index.html">English</a>
+        </div>
+        <div>
+          <h4>고객지원</h4>
+          <a href="#contact">문의하기</a>
+          <a href="#contact">A/S 정책</a>
+          <a href="#contact">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>© 2026 Lumio Studio. All rights reserved.</p>
+      <p>Made with care in Seoul.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

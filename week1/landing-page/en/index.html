@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumio — A smart desk lamp that flows with your day. Circadian lighting, eye-care LED, premium materials." />
+  <meta name="theme-color" content="#1A1A1A" />
+  <title>Lumio — Light, Reimagined</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23E8A547'/%3E%3C/svg%3E" />
+</head>
+<body class="lang-en">
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#home" class="nav__logo" aria-label="Lumio Home">
+        <span class="nav__logo-mark"></span>
+        <span class="nav__logo-text">Lumio</span>
+      </a>
+
+      <nav class="nav__menu" id="navMenu">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#product" class="nav__link">Product</a>
+        <a href="#story" class="nav__link">Story</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="../index.html" class="nav__lang" aria-label="한국어로 보기">KR</a>
+        <a href="#contact" class="nav__cta">Pre-order</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy reveal">
+          <p class="eyebrow">SMART DESK LAMP · 2026</p>
+          <h1 class="hero__title">
+            Light,<br/><em>reimagined</em>.
+          </h1>
+          <p class="hero__lead">
+            Lumio is a smart desk lamp that tunes its color and brightness to your day — from your morning focus to your late-night calm, light flows with you.
+          </p>
+          <div class="hero__actions">
+            <a href="#product" class="btn btn--primary">Explore Product</a>
+            <a href="#story" class="btn btn--ghost">Our Story →</a>
+          </div>
+          <ul class="hero__meta">
+            <li><strong>2700K–6500K</strong><span>Color Temp</span></li>
+            <li><strong>10 levels</strong><span>Brightness</span></li>
+            <li><strong>30,000h</strong><span>LED Lifespan</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__product">
+            <img src="../assets/hero-lamp.png" alt="Lumio smart desk lamp" id="heroImg" />
+            <div class="hero__glow" aria-hidden="true"></div>
+          </div>
+          <div class="hero__chip">
+            <span class="hero__chip-dot"></span>
+            Mode · <strong>Focus Warm 3000K</strong>
+          </div>
+        </div>
+      </div>
+
+      <a href="#product" class="hero__scroll" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>WIRED</span><span>·</span>
+        <span>MONOCLE</span><span>·</span>
+        <span>DESIGN MILK</span><span>·</span>
+        <span>DEZEEN</span><span>·</span>
+        <span>FAST COMPANY</span><span>·</span>
+        <span>WIRED</span><span>·</span>
+        <span>MONOCLE</span><span>·</span>
+        <span>DESIGN MILK</span><span>·</span>
+        <span>DEZEEN</span><span>·</span>
+        <span>FAST COMPANY</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <section class="features section" id="product">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">FEATURES</p>
+          <h2 class="section__title">Subtle technology,<br/>thoughtful light</h2>
+          <p class="section__sub">
+            Where science and design meet — every moment your eyes settle on light, made gentler.
+          </p>
+        </header>
+
+        <div class="features__grid">
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+              </svg>
+            </div>
+            <h3>Circadian Sync</h3>
+            <p>Crisp white in the morning, warm amber by night. Color temperature shifts naturally with the time of day.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M12 3l3 6 6 1-4.5 4 1 6L12 17l-5.5 3 1-6L3 10l6-1z"/>
+              </svg>
+            </div>
+            <h3>Eye-Care LED</h3>
+            <p>Flicker-free, glare-free, medical-grade LEDs minimize eye strain through long sessions.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <rect x="6" y="2" width="12" height="20" rx="2"/>
+                <line x1="12" y1="18" x2="12" y2="18.01"/>
+              </svg>
+            </div>
+            <h3>App Control</h3>
+            <p>Modes, timers and schedules right from your phone — and a smooth integration with voice assistants.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M4 7l8-4 8 4M4 7v10l8 4 8-4V7M4 7l8 4 8-4M12 11v10"/>
+              </svg>
+            </div>
+            <h3>Premium Materials</h3>
+            <p>Forged aluminum body with a recycled aluminum base. Every surface feels solid, every line refined.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M12 2a7 7 0 0 0-4 12.74V17a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2.26A7 7 0 0 0 12 2z"/>
+                <line x1="9" y1="22" x2="15" y2="22"/>
+              </svg>
+            </div>
+            <h3>Smart Sensor</h3>
+            <p>Ambient and motion sensors deliver exactly the light you need — and never more than that.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M21 12a9 9 0 1 1-9-9c2.5 0 4.78.95 6.5 2.5"/>
+                <polyline points="21 4 21 9 16 9"/>
+              </svg>
+            </div>
+            <h3>Energy Efficient</h3>
+            <p>80% more efficient than fluorescents — a sustainable choice you can leave on guilt-free.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="container showcase__grid">
+        <div class="showcase__media reveal">
+          <img src="../assets/lifestyle-warm.png" alt="Warm light glowing on a wooden desk with Lumio" />
+        </div>
+        <div class="showcase__copy reveal">
+          <p class="eyebrow">DESIGN</p>
+          <h2 class="section__title">Minimal,<br/>perfectly balanced</h2>
+          <p>
+            A magnetic hinge designed for one-handed adjustment. Inside its slender silhouette lives precise engineering — a form that disappears into any space, anywhere on your desk.
+          </p>
+          <ul class="check-list">
+            <li>360° magnetic hinge</li>
+            <li>Touch-slide dimmer</li>
+            <li>Built-in USB-C charging port</li>
+            <li>Four colorways — Midnight, Sand, Sage, Ivory</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="story section" id="story">
+      <div class="container story__grid">
+        <div class="story__copy reveal">
+          <p class="eyebrow">OUR STORY</p>
+          <h2 class="section__title">Light shapes time,<br/>not just space</h2>
+          <p>
+            Lumio began with a belief — that light is not a tool, but a feeling.
+            We sit at the same desk every day, but those hours are never the same. Morning focus, afternoon meetings, midnight thought — each deserves its own light.
+          </p>
+          <p>
+            Three years of work between engineers and designers led us to a lamp that reaches as close to human emotion as light can.
+          </p>
+          <a href="#contact" class="btn btn--ghost">Learn more →</a>
+        </div>
+        <div class="story__media reveal">
+          <img src="../assets/lifestyle-cool.png" alt="Lumio in evening lifestyle" />
+          <div class="story__badge">EST. 2026 · SEOUL</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specs -->
+    <section class="specs section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">TECH SPECS</p>
+          <h2 class="section__title">Honest specs</h2>
+        </header>
+        <div class="specs__grid">
+          <div class="spec reveal"><span>Color Temp</span><strong>2700K – 6500K</strong></div>
+          <div class="spec reveal"><span>Brightness</span><strong>Up to 1,200 lux</strong></div>
+          <div class="spec reveal"><span>CRI</span><strong>95+</strong></div>
+          <div class="spec reveal"><span>Power</span><strong>9W (USB-C PD)</strong></div>
+          <div class="spec reveal"><span>Dimensions</span><strong>410 × 180 × 60 mm</strong></div>
+          <div class="spec reveal"><span>Weight</span><strong>1.2 kg</strong></div>
+          <div class="spec reveal"><span>Connectivity</span><strong>Wi-Fi · Bluetooth 5.3</strong></div>
+          <div class="spec reveal"><span>Compatibility</span><strong>iOS · Android · Matter</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section class="cta section" id="contact">
+      <div class="container cta__inner reveal">
+        <p class="eyebrow">PRE-ORDER</p>
+        <h2 class="section__title">Be the first.</h2>
+        <p class="cta__sub">Pre-order to receive 20% off retail and early access to limited colorways.</p>
+        <form class="cta__form" id="ctaForm" novalidate>
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Reserve now</button>
+        </form>
+        <p class="cta__note">*Your information is used only for launch notifications.</p>
+        <p class="cta__success" id="ctaSuccess" hidden>Thank you. You'll be the first to know.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <span class="nav__logo-mark"></span>
+        <span class="nav__logo-text">Lumio</span>
+        <p>Light, reimagined for the way you live.</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <h4>Product</h4>
+          <a href="#product">Features</a>
+          <a href="#product">Design</a>
+          <a href="#product">Specs</a>
+        </div>
+        <div>
+          <h4>Brand</h4>
+          <a href="#story">Story</a>
+          <a href="#contact">Pre-order</a>
+          <a href="../index.html">한국어</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="#contact">Contact</a>
+          <a href="#contact">Warranty</a>
+          <a href="#contact">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>© 2026 Lumio Studio. All rights reserved.</p>
+      <p>Made with care in Seoul.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
